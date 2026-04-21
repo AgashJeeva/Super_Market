@@ -1,7 +1,7 @@
 import express from "express";
 
 const router = express.Router();
-//
+
 // Get all products
 router.get("/", (req, res) => {
   res.json({ message: "Get all products" });
