@@ -23,7 +23,6 @@ export const createProduct = async (req, res) => {
   }
 };
 
-// =======================
 // GET ALL PRODUCTS
 export const getProducts = async (req, res) => {
   try {
